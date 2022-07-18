@@ -1,0 +1,74 @@
+/*----------Header----------*/
+
+.header-top {
+    align-items: center;
+    margin: auto;
+}
+
+nav a {
+    padding-top: 50px;
+}
+
+
+/*---------Filters---------*/
+
+.filters {
+    align-items: stretch;
+    height: auto;
+}
+
+.filter {
+    padding-bottom: 10px;
+}
+
+/*----------Informations----------*/
+.info {
+    align-items: baseline;
+}
+
+
+/*----------All middle section----------*/
+
+.all-middle-section {
+    flex-direction: column-reverse;
+}
+
+
+/*----------Accomodations----------*/
+
+#accomodations {
+    width: 100%;
+    padding:0;
+}
+
+.acc-card {
+    width: 45%;
+    margin: 0 10px 20px 10px;
+}
+
+/*----------Popular---------*/
+
+#popular {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.pop-card {
+    max-width: 400px;
+}
+
+/*----------Activities----------*/
+
+.act-container {
+    flex-direction: column;
+}
+
+.act-left {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-right: 0;
+}
+.act-right {
+    width: 100%;
+    padding-left: 0;
+}

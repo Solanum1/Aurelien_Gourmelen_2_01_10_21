@@ -1,0 +1,228 @@
+/*----------General----------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0 5% 0 5%;
+}
+
+/*----------Header----------*/
+
+.header-top {
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-slogan {
+    padding: 0 5% 0 5%;
+}
+
+nav {
+    border-bottom: 3px solid #F2F2F2;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0 ;
+    margin-right: 20px;
+    justify-content: space-around ;
+}
+
+nav a {
+    padding-bottom: 17px;
+    margin : auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav a:hover {
+    border-top: none;
+    border-bottom : 3px solid #0065FC;
+
+}
+
+
+/*----------Search bar-----------*/
+.search {
+    padding: 0 5% 0 5%;
+}
+
+input {
+    max-width: 50%;
+}
+
+.search-text {
+    display: none;
+}
+
+.search-icon {
+    display:inline;
+    background-color: #0065FC;
+    border : 1px solid #0065FC;
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+}
+
+/*----------Filters----------*/
+
+.filters {
+    align-items: stretch;
+    height: auto;
+    padding: 0 5% 0 5%;
+    gap: 5px;
+}
+.filters h2 {
+    margin-right: 150px;
+}
+
+.filter {
+    padding-bottom: 10px;
+}
+
+
+/*----------Informations----------*/
+.info {
+    align-items: baseline;
+    padding:0 5% 0 5%;
+}
+
+/*----------All middle section----------*/
+
+.all-middle-section {
+    flex-direction: column-reverse;
+}
+
+/*----------Accomodations----------*/
+
+#accomodations {
+    background-color:white;
+    width: 100%;
+    padding:0;
+}
+#acc-link {
+    padding: 0 0 10px 5%;
+}
+.acc-container {
+    flex-direction: column;
+    align-content: center;
+    margin: 0 5% 0 5%;
+}
+
+.acc-card {
+    width: 100%;
+    margin: 0 0 20px 0;
+    max-width: 400px;
+}
+
+.acc-more {
+
+    padding: 20px 0 10px 5%;
+}
+
+/*----------Popular---------*/
+
+#popular {
+    width: 100%;
+    padding: 0 5% 0 5%;
+    border-radius:0;
+    margin: 0;
+}
+
+.pop-card {
+    max-width: 400px;
+}
+
+/*----------Activities----------*/
+
+.activities h2 {
+    padding: 30px 0 0 5%;
+}
+
+.act-container {
+    flex-direction: column;
+    margin : 0 5% 0 5%;
+}
+
+.act-left {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-right: 0;
+    flex-direction: column;
+    align-items: center;
+
+}
+.act-right {
+    width: 100%;
+    padding-left: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.act-column {
+    width: 100%;
+    align-items: center;
+}
+
+.act-large {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding-right: 0;
+}
+
+.act-large img {
+    height: 150px;
+}
+
+.act-small {
+    width: 100%;
+    max-width: 400px;
+    padding-left: 0;
+    margin: 0 5% -10px 5%;
+}
+
+.act-small img {
+    height: 150px;
+    width: 100%;
+}
+
+.act-pomegue {
+    margin-bottom: 20px;
+}
+
+.act-garde {
+    margin-bottom: 20px;
+}
+
+.act-port img {
+    object-position: 50% 25%;
+}
+
+.act-calanques img {
+    object-position: 50% 25%;
+}
+
+
+
+/*----------Footer----------*/
+
+footer {
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.footer-item {
+    margin-left: 20%;
+
+}
+.footer-left {
+    margin-left: 20%;
+}
